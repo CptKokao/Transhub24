@@ -1,0 +1,32 @@
+.header {
+	width: 100%;
+	height: 1310px;
+	background: #12033C url("../img/hero.jpg") center no-repeat;
+}
+
+.header__nav-top {
+	border: 1px solid rgba(235, 235, 235, 0.4);
+}
+
+.header__nav-top-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 57px;
+}
+
+.header__nav-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.header__nav-bottom-link {
+	width: 150px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 23px;
+	color: #20AFFF;
+	border-bottom: 2px solid #20afff;
+}
