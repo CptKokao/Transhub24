@@ -1,6 +1,5 @@
 // Импорт дополнительных стилей
 @import "plugin/normalize.scss";
-@import "plugin/swiper.scss";
 
 // Импорт глобальных файлов
 @import "global/variables.scss";
@@ -14,3 +13,6 @@
 @import "components/lang.scss";
 @import "components/logo.scss";
 @import "components/nav.scss";
+@import "components/caption.scss";
+@import "components/hslider.scss";
+@import "components/slick.scss";
