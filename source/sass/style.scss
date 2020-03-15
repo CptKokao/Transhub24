@@ -1,5 +1,6 @@
 // Импорт дополнительных стилей
 @import "plugin/normalize.scss";
+@import "plugin/slick.scss";
 
 // Импорт глобальных файлов
 @import "global/variables.scss";
@@ -17,3 +18,4 @@
 @import "components/slick.scss";
 @import "components/hslider.scss";
 @import "components/sslider.scss";
+@import "components/footer.scss";

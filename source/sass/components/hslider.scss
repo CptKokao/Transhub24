@@ -84,11 +84,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    color: #004460;
+  }
 }
 
 .hslider__form-btn--enter {
   background: #20afff;
   color: #ffffff;
+
+  &:hover {
+    color: #004460;
+  }
 }
 
 .hslider__form-link {
@@ -97,4 +105,8 @@
   line-height: 17px;
   text-align: center;
   color: #004460;
+
+  &:hover {
+    @include link-opacity;
+  }
 }

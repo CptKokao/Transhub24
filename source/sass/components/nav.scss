@@ -1,5 +1,4 @@
 // Верхняя навигация
-
 .nav-top {
   // 60px = lang
   // 145px = enter
@@ -21,12 +20,15 @@
       font-size: 14px;
       line-height: 17px;
       color: #88819d;
+
+      &:hover {
+        @include link-blue;
+      }
     }
   }
 }
 
 // Нижняя навигация
-
 .nav-bottom {
   // 105px = logo
   // 150px = text
@@ -48,11 +50,15 @@
       font-size: 14px;
       line-height: 17px;
       color: #ffffff;
+
+      &:hover {
+        @include link-blue;
+      }
     }
   }
 }
 
-.nav-top__link-extra {
+.nav-bottom__link-extra {
   position: relative;
 
   &::before {
@@ -61,12 +67,11 @@
     color: blanchedalmond;
     bottom: -15px;
     left: 50%;
-    transform: translateX(-50%);
 
     border: solid #c7c7c7;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateX(-50%);
   }
 }
