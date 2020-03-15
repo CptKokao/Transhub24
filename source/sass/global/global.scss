@@ -90,18 +90,18 @@ a {
   transition-duration: 0.3s;
 
   .header__nav-top {
-    border-bottom: 1px solid #D0D5D9;
+    border-bottom: 1px solid #d0d5d9;
   }
 
   .header__nav-bottom-link {
     &:hover {
       color: #004460;
-      border-bottom: 2px solid #004460;;
+      border-bottom: 2px solid #004460;
     }
   }
 
   .enter__link--active {
-    color: #0099EF;
+    color: #0099ef;
   }
 
   .nav-bottom {

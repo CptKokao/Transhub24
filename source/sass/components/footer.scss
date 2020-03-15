@@ -1,6 +1,6 @@
 .footer {
   height: 320px;
-  background: #002C4C;
+  background: #002c4c;
 }
 
 .footer__wrap {
@@ -18,7 +18,7 @@
     line-height: 24px;
 
     a {
-      color: #FFFFFF;
+      color: #ffffff;
 
       &:hover {
         @include link-blue;
@@ -33,7 +33,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   ul {
@@ -42,7 +42,7 @@
 
   a {
     line-height: 30px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     &:hover {
       @include link-blue;
@@ -55,7 +55,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   ul {
@@ -122,7 +122,7 @@
     a {
       font-size: 14px;
       line-height: 17px;
-      color: #FFFFFF;
+      color: #ffffff;
 
       &:hover {
         @include link-blue;
