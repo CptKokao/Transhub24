@@ -8,3 +8,10 @@ $('.hslider').slick({
   slidesToShow: 1,
   dots: true,
 });
+
+$('.sslider').slick({
+  infinite: false,
+  variableWidth: true,
+  slidesToShow: 4,
+  dots: true,
+});
